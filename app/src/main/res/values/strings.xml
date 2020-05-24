@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string name="splash">splash</string>
+    <string name="splash1">splash1</string>
+    <string name="splash2">splash2</string>
+    <string name="text">نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</string>
+    <string name="slider3">slider3</string>
+    <string name="slider1">slider1</string>
+    <string name="slider2">slider2</string>
+    <string name="btnnext">btnNext</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_cycle">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_home_cycle">HomeCycleActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_identity">Identity</string>
+    <string name="title_more">More</string>
+    <string name="login">Login</string>
+    <string name="remember_me">remember me</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="mobile_no">MOBILE NUMBER</string>
+    <string name="password">PASSWORD</string>
+    <string name="sign_up">Sign up</string>
+    <string name="enter">Enter</string>
+    <string name="register">register</string>
+    <string name="create_a_new_account">Create A new Account</string>
+    <string name="e_mail">E-mail</string>
+    <string name="birht_date">Birht Date</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="last_date_of_donation">Last Date Of Donation</string>
+    <string name="governorate">Governorate</string>
+    <string name="city">City</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="send">Send</string>
+    <string name="confirmation_code">Confirmation Code</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="change">Change</string>
+    <string name="donation">Donation</string>
+    <string name="posts">Posts</string>
+    <string name="title_account">Account</string>
+
+    <string name="select_governorate">Select a governorate</string>
+    <string name="select_blood_type">اختر فصيلة الدم</string>
+    <string name="select_city">اختر مدينة</string>
+    <string name="select_date">Select a date</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="birth_date">Birth Date</string>
+</resources>

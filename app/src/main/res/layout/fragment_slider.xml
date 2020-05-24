@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_slider"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".view.fragment.splashCycle.SliderFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_layout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.viewpager.widget.ViewPager>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp">
+
+        <ImageView
+            android:id="@+id/dots"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_dots1" />
+
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_200sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_weight="8"
+            android:background="@drawable/rounded_slider_btn"
+            android:contentDescription="@string/btnnext"
+            app:srcCompat="@drawable/ic_arrow_forward_white_24dp" />
+    </LinearLayout>
+
+</RelativeLayout>

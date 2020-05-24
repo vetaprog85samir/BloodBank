@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/notification_setting_fragment_rel_sub_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/notification_setting_fragment_tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/_12sdp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_20ssp"
+                android:text="Please select governorate and blood type" />
+
+            <LinearLayout
+                android:id="@+id/notification_setting_fragment_rel_bl_gone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@drawable/rounded_corner"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingTop="@dimen/_24sdp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/notification_setting_fragment_bl_iv_gone"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:background="@drawable/ic_white_plus_24dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/notification_setting_fragment_bl_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/notification_setting_fragment_bl_rel_iv_tv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/rounded_corner_orange">
+
+                <ImageView
+                    android:id="@+id/notification_setting_fragment_bl_iv"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:background="@drawable/ic_white_plus_24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:text="@string/blood_type"
+                    android:textSize="@dimen/_20ssp"
+                    android:textColor="@color/color_white"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/notification_setting_fragment_rel_gov_gone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@drawable/rounded_corner"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingTop="@dimen/_24sdp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/notification_setting_fragment_gov_iv_gone"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:background="@drawable/ic_white_plus_24dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/notification_setting_fragment_gov_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/notification_setting_fragment_gov_rel_iv_tv"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/rounded_corner_orange">
+
+                <ImageView
+                    android:id="@+id/notification_setting_fragment_gov_iv"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:background="@drawable/ic_white_plus_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:text="@string/governorate"
+                    android:textSize="@dimen/_20ssp"
+                    android:textColor="@color/color_white"/>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corner_orange"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="Save"
+                android:textSize="@dimen/_16ssp"
+                android:textColor="@color/color_white"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
